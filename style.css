@@ -6,12 +6,15 @@ html, body,  header, div, figure, ul, li, p, main, input, a, section, h1, h2, h3
     text-decoration: none;
     }
 
-
 figure{
     padding: 0px 0px 0px 0px;
     margin: 10px 50px 10px 350px;
     display: flex;
     }
+
+h1, h2{
+    color: #820ad1;
+}
 
 img#perfil{
     width:130px;
@@ -23,8 +26,8 @@ section#EXPECT{
 }
 
 body{
-    background-color: rgb(45, 13, 46);
-    color: #080707;
+    background-color: #ffffff;
+    color: #000000;
     align-items: center;
     }
 
@@ -35,12 +38,12 @@ body .ul{
 
 body .container{
         margin: 25px;
-        background-color: rgb(211, 182, 208);
-        font-family: 'Josefin Sans', sans-serif;
+        background-color: #ffffff;
+        font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
         padding: 10px 0px 20px 0px;
         text-align: center;
         align-items: center;
-        border: 5px solid rgb(211, 182, 208);
+        border: 5px solid #820ad1;
         width: 97%;
         z-index: 0;
         position: relative;       
@@ -68,8 +71,8 @@ nav:hover .menu-lateral {
     text-align:start;
     width: 240px;
     float: right;
-    background: rgb(206, 163, 215);
-    color: rgb(189, 142, 186);
+    background: #ffffff;
+    color: #462647;
     font-family: 'Josefin Sans', sans-serif;
     position:relative;
     z-index: 999;
@@ -77,8 +80,8 @@ nav:hover .menu-lateral {
     }
 
 div .centro{
-    background-color: rgb(211, 182, 208);
-    padding: 30px 20px 100px;
+    background-color: #ffffff;
+    padding: 30px 20px 60px;
     text-align: left;
     align-items: left;
     display: inline-block;
@@ -100,13 +103,13 @@ div .centro{
     display: inline-grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     color: black;
-    background-color: rgb(211, 182, 208);
+    background-color: #ffffff;
     margin: 0px, 0px, 0px, -10px;
     border: 1px;
    }
 
 .baixo{
-    padding: 40px;
+    padding: 20px;
     display: left;
     align-items: left;
     align-content: flex-start;
@@ -123,36 +126,30 @@ img#download{
 
     .item.item-1 {
         /* border: thick; */
-        color: navy;
-        border-color: #b97cb9;
-        border: solid;
+        color: #000000;
         padding: 15px;
         margin: 5px;
-        text-align: right;
-        background-color: rgb(211, 182, 208);
+        text-align: left;
+        background-color: #ffffff;
         
     }
 
     .item.item-2 {
         /* border: thick; */
-        color: navy;
-        border-color: #b97cb9;
-        border: solid;
+        color: #000000;
         padding: 15px;
         margin: 5px;
-        text-align: right;
-        background-color: rgb(211, 182, 208);
+        text-align: left;
+        background-color: #ffffff;
     }
 
     .item.item-3 {
         /* border: thick; */
-        color: navy;
-        border-color: #b97cb9;
-        border: solid;
+        color: #000000;
         padding: 15px;
         margin: 5px;
         text-align: right;
-        background-color: rgb(211, 182, 208);
+        background-color: #ffffff;
     }
 
 
